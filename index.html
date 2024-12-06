@@ -3,21 +3,101 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Portfolio</title>
-		<link rel="stylesheet" href="styles.css">
+		<title>Mick's Page</title>
+		<link rel="stylesheet" href="styles.css"/>
+		<link rel="icon" href="logo.svg" />
+		
+		<!-- Social Media Logos --!>
+		<!--
+		<link rel="" href="x-logo.svg"/>
+		<link rel="icon" href="discord.svg"/>
+		<link rel="icon" href="github.svg"/>
+		--!>
+		
+		<!--Aileron--!>
+		<link href="https://fonts.cdnfonts.com/css/aileron" rel="stylesheet">
+		
+		<!--Noto Sans Mono--!>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+		
+		<!--Nunito--!>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">		
 	</head>
 	<body>
 		<header>
 			<a id="logo" href=""><img src="logo.svg"/></a>
 			<nav class="nav-bar">
 				<ul>
-					<li><div class="nav-text">About Me</div><a class="nav-link" href="#about">About Me</a></li>
+					<li><div class="nav-text">About Me</div><a class="nav-link" href="#about-article">About Me</a></li>
 					<li><div class="nav-text">My Projects</div><a class="nav-link" href="#projects">My Projects</a></li>
 					<li><div class="nav-text">Reach Out</div><a class="nav-link" href="#reach">Reach Out</a></li>
 				</ul>
 			</nav>
 		</header>
 		<main>
+			<div id="hero">
+				<h1>Hello, I am Mick</h1>
+				<h2>Web dev, Game dev, Project Manager</h2>
+			</div>
+			<div id="about-article">
+				<h1>About Me</h1>
+				<p>This is where I'm going to write about all the cool facts about me, stay tuned!
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec aliquet fermentum sem molestie rutrum. Cras scelerisque sollicitudin turpis, id dapibus augue consectetur vel. Donec mattis tristique mi, vitae convallis magna pulvinar nec. Morbi diam odio, tempus et sem fermentum, consequat congue nisi. Mauris eu convallis massa. Pellentesque neque dui, vulputate dictum enim in, finibus posuere magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Cras mollis magna odio, eget condimentum orci molestie nec. Praesent id mattis justo. Proin lobortis, eros gravida dapibus scelerisque, felis ipsum sollicitudin mi, a mollis arcu orci a metus. Phasellus mollis elementum suscipit. Sed pharetra, mauris vel vestibulum consectetur, nisi quam varius sapien, et posuere augue ipsum id justo. Morbi pharetra lacinia auctor. Nam faucibus nisl in tempor venenatis.</p>
+
+				<p>Fusce lobortis feugiat maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Integer molestie viverra feugiat. Phasellus condimentum eget lectus in lacinia. Vestibulum rhoncus velit eu nisl tincidunt aliquam. Phasellus scelerisque rhoncus diam et condimentum. Morbi scelerisque commodo purus quis placerat. Integer volutpat tristique commodo.</p>
+			</div>
+			<div id="projects">
+				<h1>My Projects</h1>
+				<div class="project-grid">
+					<a class="project-card" href="">
+						<img src="Red_Shift.png"/>
+						<span><p class="card-selector">< </p><p class="card-title">Red Shift</p><p class="card-selector"> /></p></span>
+					</a>
+					<a class="project-card" href="">
+						<img src="Fire-Tires.jpg"/>
+						<span><p class="card-selector">< </p><p class="card-title">Fire Tires</p><p class="card-selector"> /></p></span>
+					</a>
+					<a class="project-card" href="">
+						<img src="placeholder.svg"/>
+						<span><p class="card-selector">< </p><p class="card-title">Future Project</p><p class="card-selector"> /></p></span>
+					</a>
+					<a class="project-card" href="">
+						<img src="placeholder.svg"/>
+						<span><p class="card-selector">< </p><p class="card-title">Future Project</p><p class="card-selector"> /></p></span>
+					</a>
+					<a class="project-card" href="">
+						<img src="placeholder.svg"/>
+						<span><p class="card-selector">< </p><p class="card-title">Future Project</p><p class="card-selector"> /></p></span>
+					</a>
+					<a class="project-card" href="">
+						<img src="placeholder.svg"/>
+						<span><p class="card-selector">< </p><p class="card-title">Future Project</p><p class="card-selector"> /></p></span>
+					</a>
+				</div>
+			</div>
+
+<!----------------------------------------------------------------------!>
+
+			<div id="reach">
+				<h1>Reach Out</h1>
+				<p>Hit me up and let's see what we can build together!</p>
+				<div class="socials">
+					<a class="social-link" href="https://discord.com/" target="_blank">
+						<img src="discord.svg"/>
+					</a>
+					<a class="social-link" href="https://i.insider.com/6345bf6739a9f1001232a868?width=683&format=jpeg" target="_blank">
+						<img src="x-logo.svg"/>
+					</a>
+					<a class="social-link" href="https://github.com/McRoncken/Portfolio-site" target="_blank">
+						<img src="github.svg"/>
+					</a>
+				</div>
+			</div>
 		</main>
 	</body>
 </html>
